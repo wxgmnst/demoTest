@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA9C53F01F53DCAB000D54D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C53EF1F53DCAB000D54D9 /* main.m */; };
+		DA9C53F31F53DCAB000D54D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C53F21F53DCAB000D54D9 /* AppDelegate.m */; };
+		DA9C53F61F53DCAB000D54D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C53F51F53DCAB000D54D9 /* ViewController.m */; };
+		DA9C53F91F53DCAB000D54D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9C53F71F53DCAB000D54D9 /* Main.storyboard */; };
+		DA9C53FB1F53DCAB000D54D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9C53FA1F53DCAB000D54D9 /* Assets.xcassets */; };
+		DA9C53FE1F53DCAB000D54D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9C53FC1F53DCAB000D54D9 /* LaunchScreen.storyboard */; };
+		DA9C54091F53DCAB000D54D9 /* superPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C54081F53DCAB000D54D9 /* superPayTests.m */; };
+		DA9C54141F53DCAB000D54D9 /* superPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C54131F53DCAB000D54D9 /* superPayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA9C54051F53DCAB000D54D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9C53E31F53DCAB000D54D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9C53EA1F53DCAB000D54D9;
+			remoteInfo = superPay;
+		};
+		DA9C54101F53DCAB000D54D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9C53E31F53DCAB000D54D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9C53EA1F53DCAB000D54D9;
+			remoteInfo = superPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA9C53EB1F53DCAB000D54D9 /* superPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9C53EF1F53DCAB000D54D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA9C53F11F53DCAB000D54D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA9C53F21F53DCAB000D54D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA9C53F41F53DCAB000D54D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA9C53F51F53DCAB000D54D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA9C53F81F53DCAB000D54D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA9C53FA1F53DCAB000D54D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA9C53FD1F53DCAB000D54D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA9C53FF1F53DCAB000D54D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9C54041F53DCAB000D54D9 /* superPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9C54081F53DCAB000D54D9 /* superPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = superPayTests.m; sourceTree = "<group>"; };
+		DA9C540A1F53DCAB000D54D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9C540F1F53DCAB000D54D9 /* superPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9C54131F53DCAB000D54D9 /* superPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = superPayUITests.m; sourceTree = "<group>"; };
+		DA9C54151F53DCAB000D54D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA9C53E81F53DCAB000D54D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C54011F53DCAB000D54D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C540C1F53DCAB000D54D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9C53E21F53DCAB000D54D9 = {
+			isa = PBXGroup;
+			children = (
+				DA9C53ED1F53DCAB000D54D9 /* superPay */,
+				DA9C54071F53DCAB000D54D9 /* superPayTests */,
+				DA9C54121F53DCAB000D54D9 /* superPayUITests */,
+				DA9C53EC1F53DCAB000D54D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9C53EC1F53DCAB000D54D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C53EB1F53DCAB000D54D9 /* superPay.app */,
+				DA9C54041F53DCAB000D54D9 /* superPayTests.xctest */,
+				DA9C540F1F53DCAB000D54D9 /* superPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9C53ED1F53DCAB000D54D9 /* superPay */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C53F11F53DCAB000D54D9 /* AppDelegate.h */,
+				DA9C53F21F53DCAB000D54D9 /* AppDelegate.m */,
+				DA9C53F41F53DCAB000D54D9 /* ViewController.h */,
+				DA9C53F51F53DCAB000D54D9 /* ViewController.m */,
+				DA9C53F71F53DCAB000D54D9 /* Main.storyboard */,
+				DA9C53FA1F53DCAB000D54D9 /* Assets.xcassets */,
+				DA9C53FC1F53DCAB000D54D9 /* LaunchScreen.storyboard */,
+				DA9C53FF1F53DCAB000D54D9 /* Info.plist */,
+				DA9C53EE1F53DCAB000D54D9 /* Supporting Files */,
+			);
+			path = superPay;
+			sourceTree = "<group>";
+		};
+		DA9C53EE1F53DCAB000D54D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C53EF1F53DCAB000D54D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA9C54071F53DCAB000D54D9 /* superPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C54081F53DCAB000D54D9 /* superPayTests.m */,
+				DA9C540A1F53DCAB000D54D9 /* Info.plist */,
+			);
+			path = superPayTests;
+			sourceTree = "<group>";
+		};
+		DA9C54121F53DCAB000D54D9 /* superPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C54131F53DCAB000D54D9 /* superPayUITests.m */,
+				DA9C54151F53DCAB000D54D9 /* Info.plist */,
+			);
+			path = superPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9C53EA1F53DCAB000D54D9 /* superPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9C54181F53DCAB000D54D9 /* Build configuration list for PBXNativeTarget "superPay" */;
+			buildPhases = (
+				DA9C53E71F53DCAB000D54D9 /* Sources */,
+				DA9C53E81F53DCAB000D54D9 /* Frameworks */,
+				DA9C53E91F53DCAB000D54D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = superPay;
+			productName = superPay;
+			productReference = DA9C53EB1F53DCAB000D54D9 /* superPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA9C54031F53DCAB000D54D9 /* superPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9C541B1F53DCAB000D54D9 /* Build configuration list for PBXNativeTarget "superPayTests" */;
+			buildPhases = (
+				DA9C54001F53DCAB000D54D9 /* Sources */,
+				DA9C54011F53DCAB000D54D9 /* Frameworks */,
+				DA9C54021F53DCAB000D54D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9C54061F53DCAB000D54D9 /* PBXTargetDependency */,
+			);
+			name = superPayTests;
+			productName = superPayTests;
+			productReference = DA9C54041F53DCAB000D54D9 /* superPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA9C540E1F53DCAB000D54D9 /* superPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9C541E1F53DCAB000D54D9 /* Build configuration list for PBXNativeTarget "superPayUITests" */;
+			buildPhases = (
+				DA9C540B1F53DCAB000D54D9 /* Sources */,
+				DA9C540C1F53DCAB000D54D9 /* Frameworks */,
+				DA9C540D1F53DCAB000D54D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9C54111F53DCAB000D54D9 /* PBXTargetDependency */,
+			);
+			name = superPayUITests;
+			productName = superPayUITests;
+			productReference = DA9C540F1F53DCAB000D54D9 /* superPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9C53E31F53DCAB000D54D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wxgmnst;
+				TargetAttributes = {
+					DA9C53EA1F53DCAB000D54D9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8YA2UUKYL6;
+						ProvisioningStyle = Automatic;
+					};
+					DA9C54031F53DCAB000D54D9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA9C53EA1F53DCAB000D54D9;
+					};
+					DA9C540E1F53DCAB000D54D9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA9C53EA1F53DCAB000D54D9;
+					};
+				};
+			};
+			buildConfigurationList = DA9C53E61F53DCAB000D54D9 /* Build configuration list for PBXProject "superPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA9C53E21F53DCAB000D54D9;
+			productRefGroup = DA9C53EC1F53DCAB000D54D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9C53EA1F53DCAB000D54D9 /* superPay */,
+				DA9C54031F53DCAB000D54D9 /* superPayTests */,
+				DA9C540E1F53DCAB000D54D9 /* superPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA9C53E91F53DCAB000D54D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C53FE1F53DCAB000D54D9 /* LaunchScreen.storyboard in Resources */,
+				DA9C53FB1F53DCAB000D54D9 /* Assets.xcassets in Resources */,
+				DA9C53F91F53DCAB000D54D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C54021F53DCAB000D54D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C540D1F53DCAB000D54D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9C53E71F53DCAB000D54D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C53F61F53DCAB000D54D9 /* ViewController.m in Sources */,
+				DA9C53F31F53DCAB000D54D9 /* AppDelegate.m in Sources */,
+				DA9C53F01F53DCAB000D54D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C54001F53DCAB000D54D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C54091F53DCAB000D54D9 /* superPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C540B1F53DCAB000D54D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C54141F53DCAB000D54D9 /* superPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9C54061F53DCAB000D54D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9C53EA1F53DCAB000D54D9 /* superPay */;
+			targetProxy = DA9C54051F53DCAB000D54D9 /* PBXContainerItemProxy */;
+		};
+		DA9C54111F53DCAB000D54D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9C53EA1F53DCAB000D54D9 /* superPay */;
+			targetProxy = DA9C54101F53DCAB000D54D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA9C53F71F53DCAB000D54D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9C53F81F53DCAB000D54D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA9C53FC1F53DCAB000D54D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9C53FD1F53DCAB000D54D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA9C54161F53DCAB000D54D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA9C54171F53DCAB000D54D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA9C54191F53DCAB000D54D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8YA2UUKYL6;
+				INFOPLIST_FILE = superPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxgmnst.superPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		DA9C541A1F53DCAB000D54D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8YA2UUKYL6;
+				INFOPLIST_FILE = superPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxgmnst.superPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		DA9C541C1F53DCAB000D54D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = superPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxgmnst.superPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/superPay.app/superPay";
+			};
+			name = Debug;
+		};
+		DA9C541D1F53DCAB000D54D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = superPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxgmnst.superPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/superPay.app/superPay";
+			};
+			name = Release;
+		};
+		DA9C541F1F53DCAB000D54D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = superPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxgmnst.superPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = superPay;
+			};
+			name = Debug;
+		};
+		DA9C54201F53DCAB000D54D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = superPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxgmnst.superPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = superPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA9C53E61F53DCAB000D54D9 /* Build configuration list for PBXProject "superPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C54161F53DCAB000D54D9 /* Debug */,
+				DA9C54171F53DCAB000D54D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9C54181F53DCAB000D54D9 /* Build configuration list for PBXNativeTarget "superPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C54191F53DCAB000D54D9 /* Debug */,
+				DA9C541A1F53DCAB000D54D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA9C541B1F53DCAB000D54D9 /* Build configuration list for PBXNativeTarget "superPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C541C1F53DCAB000D54D9 /* Debug */,
+				DA9C541D1F53DCAB000D54D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA9C541E1F53DCAB000D54D9 /* Build configuration list for PBXNativeTarget "superPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C541F1F53DCAB000D54D9 /* Debug */,
+				DA9C54201F53DCAB000D54D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9C53E31F53DCAB000D54D9 /* Project object */;
+}
